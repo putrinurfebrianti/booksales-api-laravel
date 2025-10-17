@@ -19,6 +19,8 @@ class BookSeeder extends Seeder
             'price' => 75000.00, 
             'stock' => 120, 
             'cover_photo' => 'https://ebooks.gramedia.com/ebook-covers/46792/image_highres/ID_LSPS1681093028391.jpg', 
+            'genre_id' => '1',
+            'author_id' => '1',
         ]);
 
         Book::create([
@@ -27,6 +29,8 @@ class BookSeeder extends Seeder
             'price' => 99500.00,
             'stock' => 250,
             'cover_photo' => 'https://bukukita.com/babacms/displaybuku/95219_f.jpg',
+            'genre_id' => '2',
+            'author_id' => '2',
         ]);
 
         Book::create([
@@ -35,6 +39,8 @@ class BookSeeder extends Seeder
             'price' => 150000.00,
             'stock' => 75,
             'cover_photo' => 'https://ebooks.gramedia.com/ebook-covers/40151/big_covers/ID_GPU2017MTH09TLOTRSPCFOTRUCB_B.jpg',
+            'genre_id' => '3',
+            'author_id' => '3',
         ]);
 
         Book::create([
@@ -43,6 +49,8 @@ class BookSeeder extends Seeder
             'price' => 88000.50,
             'stock' => 300,
             'cover_photo' => 'https://ebooks.gramedia.com/ebook-covers/49184/image_highres/ID_AHPK2019MTH09AHP.jpg',
+            'genre_id' => '4',
+            'author_id' => '4',
         ]);
 
         Book::create([
@@ -51,6 +59,8 @@ class BookSeeder extends Seeder
             'price' => 110000.00,
             'stock' => 90,
             'cover_photo' => 'https://ebooks.gramedia.com/ebook-covers/42424/image_highres/ID_CL2018MTH05CL.jpg',
+            'genre_id' => '5',
+            'author_id' => '5',
         ]);  
     }
 }

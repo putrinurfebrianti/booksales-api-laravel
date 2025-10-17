@@ -14,28 +14,28 @@ class AuthorSeeder extends Seeder
     public function run(): void
     {
         Author::create([
-            'name' => 'Andrea Hirata',
-            'bio' => 'Penulis Indonesia yang terkenal lewat novel "Laskar Pelangi", sering mengangkat tema pendidikan dan budaya Melayu.',
+            'name' => 'Enid Blyton',
+            'bio' => 'Penulis asal Inggris yang terkenal dengan buku-buku anak dan remaja, terutama seri "Lima Sekawan" (The Famous Five) dan "Malory Towers".',
         ]);
 
         Author::create([
             'name' => 'Tere Liye',
-            'bio' => 'Penulis fiksi populer yang karyanya mencakup berbagai genre mulai dari romansa, fantasi, hingga buku anak-anak.',
+            'bio' => 'Penulis fiksi populer asal Indonesia yang karyanya mencakup berbagai genre mulai dari romansa, fantasi, hingga buku anak-anak. Terkenal dengan serial "Dunia Paralel".',
         ]);
 
         Author::create([
-            'name' => 'Pramoedya Ananta Toer',
-            'bio' => 'Salah satu penulis terkemuka di Indonesia. Karyanya yang paling terkenal adalah Tetralogi Buru.',
+            'name' => 'J.R.R. Tolkien',
+            'bio' => 'Penulis, penyair, filolog, dan akademisi Inggris. Ia paling dikenal sebagai penulis epik fantasi tinggi "The Hobbit" dan "The Lord of the Rings".',
         ]);
 
         Author::create([
-            'name' => 'Fiersa Besari',
-            'bio' => 'Musisi, penulis, dan petualang asal Bandung. Kerap menulis tentang perjalanan, alam, dan romansa dalam gaya santai.',
+            'name' => 'James Clear',
+            'bio' => 'Penulis, pembicara, dan wirausahawan yang berfokus pada kebiasaan, pengambilan keputusan, dan peningkatan berkelanjutan. Penulis buku terlaris "Atomic Habits".',
         ]);
 
         Author::create([
-            'name' => 'Dewi Lestari',
-            'bio' => 'Dikenal sebagai Dee Lestari. Karyanya yang populer meliputi Supernova dan Filosofi Kopi, sering memadukan sains dan spiritualitas.',
+            'name' => 'Eka Kurniawan',
+            'bio' => 'Penulis Indonesia yang karyanya diakui secara internasional. Novelnya, "Cantik Itu Luka", mendapat pujian karena memadukan fiksi sejarah, mitologi, dan fantasi.',
         ]);
-    }
-}
+            }
+        }
