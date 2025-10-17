@@ -26,6 +26,7 @@
                 <tr>
                     <td>{{ $author['name'] }}</td>
                     <td>{{ $author['bio'] }}</td>
+                     <td>{{ $author['author_id'] }}</td>
                 </tr>
             @endforeach
         </tbody>

@@ -40,6 +40,7 @@
                     <td>{{ $index + 1 }}</td> 
                     <td>{{ $genre['name'] }}</td>
                     <td>{{ $genre['description'] }}</td>
+                    <td>{{ $genre['genre_id'] }}</td>
                 </tr>
             @endforeach
         </tbody>

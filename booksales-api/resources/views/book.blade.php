@@ -59,13 +59,12 @@
         </thead>
         <tbody>
             @foreach ($books as $index => $book)
-                {{-- Logika untuk mencari Nama Penulis dan Genre dari ID --}}
+                
                 @php
-                    // *ASUMSI: Anda meneruskan variabel $authors dan $genres ke view
-                    // Mencari Author Name
+        
                     $authorName = collect($authors)->firstWhere('id', $book['author_id'])['name'] ?? 'Tidak Diketahui';
 
-                    // Mencari Genre Name
+                
                     $genreName = collect($genres)->firstWhere('id', $book['genre_id'])['name'] ?? 'Umum';
                 @endphp
                 <tr>
